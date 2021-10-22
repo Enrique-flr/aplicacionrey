@@ -1,0 +1,7 @@
+{
+  "name": "ReyApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
