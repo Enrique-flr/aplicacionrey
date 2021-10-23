@@ -1,11 +1,19 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button></ion-back-button>
-    </ion-buttons>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
-</ion-content>
+<ion-content style="border-left: 7px solid #ff987b;">
+  <div class="header">
+    <h3>Bienvenido</h3>
+    <h1>Crear una<br>Nueva Cuenta</h1>
+  </div>
+  <div class="form">
+    <ion-input type="email" placeholder="Correo Electronico"></ion-input>
+    <ion-input type="name" placeholder="Nombre de Usuario"></ion-input>
+    <ion-input type="password" placeholder="Password"></ion-input>
+    <ion-input type="password" placeholder="Confirma tu Password"></ion-input>
+  </div>
+  <div class="button sigup">
+    Registrate<ion-icon name="chevron-forward-outline"></ion-icon>
+  </div>
+  <div class="footer sigup-footer">
+    <h3  [routerLink]="['/login']">Tengo Una Cuenta <span>Login</span></h3>
+  </div>
+  
+  </ion-content>

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-sigup',
   templateUrl: './sigup.page.html',
-  styleUrls: ['./sigup.page.scss'],
+  styleUrls: ['../login/login.page.scss'],
 })
 export class SigupPage implements OnInit {
 
